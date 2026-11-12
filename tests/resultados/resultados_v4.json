@@ -1,0 +1,566 @@
+[
+  {
+    "id": "1",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "alta",
+      "resumen": "Outlook no envía correos desde esta mañana",
+      "respuesta_sugerida": "Cierra el programa de Outlook y vuelve a iniciar. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "motivo_prioridad": "No puede trabajar y no tiene alternativa",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Correo\", \"resumen\": \"Outlook no envía correos desde esta mañana\", \"respuesta_sugerida\": \"Cierra el programa de Outlook y vuelve a iniciar. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 4820
+  },
+  {
+    "id": "2",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta",
+      "resumen": "Bloqueado tras fallar la contraseña tres veces",
+      "respuesta_sugerida": "No intentes volver a ingresar la contraseña. Desconecta el ordenador y espera instrucciones de IT.",
+      "escalar": false
+    },
+    "motivo_prioridad": "No puede trabajar y no tiene alternativa",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": true,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": true, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Cuentas y accesos\", \"resumen\": \"Bloqueado tras fallar la contraseña tres veces\", \"respuesta_sugerida\": \"No intentes volver a ingresar la contraseña. Desconecta el ordenador y espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3063
+  },
+  {
+    "id": "3",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "baja",
+      "resumen": "Solicita acceso a la carpeta de Marketing",
+      "respuesta_sugerida": "Habla con el administrador de sistemas o un técnico de IT para obtener acceso.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Petición o consulta sin urgencia",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": true,
+      "sin_prisa": true,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": true, \"sin_prisa\": true, \"vaga\": false, \"categoria\": \"Cuentas y accesos\", \"resumen\": \"Solicita acceso a la carpeta de Marketing\", \"respuesta_sugerida\": \"Habla con el administrador de sistemas o un técnico de IT para obtener acceso.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2923
+  },
+  {
+    "id": "4",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "urgente",
+      "resumen": "Impresora de la segunda planta imprime con rayas",
+      "respuesta_sugerida": "No hace falta que hagáis nada más; un técnico ya está avisado. Si podéis, anotad el mensaje de error que aparece.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Afecta a un departamento o grupo de personas",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": true,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "grupo"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"grupo\", \"alternativa\": true, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Hardware\", \"resumen\": \"Impresora de la segunda planta imprime con rayas\", \"respuesta_sugerida\": \"No hace falta que hagáis nada más; un técnico ya está avisado. Si podéis, anotad el mensaje de error que aparece.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3269
+  },
+  {
+    "id": "5",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "alta",
+      "resumen": "Portátil no enciende",
+      "respuesta_sugerida": "Verifica que el cargador esté funcionando correctamente. Si sigue sin encenderse, anota el mensaje de error que aparece y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "motivo_prioridad": "No puede trabajar y no tiene alternativa",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Hardware\", \"resumen\": \"Port\\u00e1til no enciende\", \"respuesta_sugerida\": \"Verifica que el cargador est\\u00e9 funcionando correctamente. Si sigue sin encenderse, anota el mensaje de error que aparece y espera a que te contacte un t\\u00e9cnico.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3588
+  },
+  {
+    "id": "6",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "baja",
+      "resumen": "Ratón inalámbrico salta constantemente",
+      "respuesta_sugerida": "Prueba el ratón con cable de repuesto. Si sigue fallando, anota el error y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Petición o consulta sin urgencia",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": true,
+      "peticion": false,
+      "sin_prisa": true,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": true, \"peticion\": false, \"sin_prisa\": true, \"vaga\": false, \"categoria\": \"Hardware\", \"resumen\": \"Ratón inalámbrico salta constantemente\", \"respuesta_sugerida\": \"Prueba el ratón con cable de repuesto. Si sigue fallando, anota el error y espera a que te contacte un técnico.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3209
+  },
+  {
+    "id": "7",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "media",
+      "resumen": "Excel se cierra cada vez que abre el archivo de previsiones",
+      "respuesta_sugerida": "Cierra el archivo de previsiones y vuelve a abrir Excel. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Problema de un usuario con alternativa o que no le bloquea",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": true,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": true, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Software\", \"resumen\": \"Excel se cierra cada vez que abre el archivo de previsiones\", \"respuesta_sugerida\": \"Cierra el archivo de previsiones y vuelve a abrir Excel. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3483
+  },
+  {
+    "id": "8",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "baja",
+      "resumen": "Solicita instalacion de programa para editar PDF",
+      "respuesta_sugerida": "Hemos registrado tu petición. Te avisaremos cuando se pueda atender.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Petición o consulta sin urgencia",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": true,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": true, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Software\", \"resumen\": \"Solicita instalacion de programa para editar PDF\", \"respuesta_sugerida\": \"Hemos registrado tu petición. Te avisaremos cuando se pueda atender.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2720
+  },
+  {
+    "id": "9",
+    "esperado": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente",
+      "resumen": "Nadie del departamento de Ventas tiene Internet",
+      "respuesta_sugerida": "Verifica que el cable o wifi estén correctamente conectados. Si sigue sin funcionar, anota el mensaje de error que aparece.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Afecta a un departamento o grupo de personas",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "grupo"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"grupo\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Red y conexión\", \"resumen\": \"Nadie del departamento de Ventas tiene Internet\", \"respuesta_sugerida\": \"Verifica que el cable o wifi estén correctamente conectados. Si sigue sin funcionar, anota el mensaje de error que aparece.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3137
+  },
+  {
+    "id": "10",
+    "esperado": {
+      "categoria": "Red y conexión",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Red y conexión",
+      "prioridad": "alta",
+      "resumen": "VPN se queda en 'Conectando...' y no se conecta",
+      "respuesta_sugerida": "Desconecta la VPN y vuelve a conectarla. Si sigue fallando, anota el mensaje de error que aparece y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "motivo_prioridad": "No puede trabajar y no tiene alternativa",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Red y conexión\", \"resumen\": \"VPN se queda en 'Conectando...' y no se conecta\", \"respuesta_sugerida\": \"Desconecta la VPN y vuelve a conectarla. Si sigue fallando, anota el mensaje de error que aparece y espera a que te contacte un técnico.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3494
+  },
+  {
+    "id": "11",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Seguridad",
+      "prioridad": "alta",
+      "resumen": "Correo sospechoso del banco pide confirmar datos",
+      "respuesta_sugerida": "No hagas clic en el enlace. No lo abres, es la prueba. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Posible incidente de seguridad",
+    "hechos": {
+      "seguridad": true,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": true, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Correo\", \"resumen\": \"Correo sospechoso del banco pide confirmar datos\", \"respuesta_sugerida\": \"No hagas clic en el enlace. No lo abres, es la prueba. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [
+      "Categoría \"Correo\" cambiada a Seguridad (hecho seguridad = true)"
+    ],
+    "duracion_ms": 3074
+  },
+  {
+    "id": "12",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente",
+      "resumen": "Abrió correo sospechoso con enlace y credenciales",
+      "respuesta_sugerida": "No hagas clic en el enlace. No borres el correo ni el archivo. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Seguridad con interacción del usuario",
+    "hechos": {
+      "seguridad": true,
+      "interaccion": true,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": true, \"interaccion\": true, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Seguridad\", \"resumen\": \"Abrió correo sospechoso con enlace y credenciales\", \"respuesta_sugerida\": \"No hagas clic en el enlace. No borres el correo ni el archivo. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3140
+  },
+  {
+    "id": "13",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente",
+      "resumen": "Abrió un adjunto sospechoso y aparecieron ventanas raras",
+      "respuesta_sugerida": "No hagas clic en nada más. No borres el archivo ni lo elimines. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Seguridad con interacción del usuario",
+    "hechos": {
+      "seguridad": true,
+      "interaccion": true,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": true, \"interaccion\": true, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Seguridad\", \"resumen\": \"Abrió un adjunto sospechoso y aparecieron ventanas raras\", \"respuesta_sugerida\": \"No hagas clic en nada más. No borres el archivo ni lo elimines. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3211
+  },
+  {
+    "id": "14",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "media",
+      "resumen": "Perdió el móvil de empresa",
+      "respuesta_sugerida": "No haga clic en nada más. No borre el correo ni el archivo. Espera instrucciones de IT.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Problema de un usuario con alternativa o que no le bloquea",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Hardware\", \"resumen\": \"Perdió el móvil de empresa\", \"respuesta_sugerida\": \"No haga clic en nada más. No borre el correo ni el archivo. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2875
+  },
+  {
+    "id": "15",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente",
+      "resumen": "Correos externos bloqueados desde las 9",
+      "respuesta_sugerida": "No hagas clic en ningún enlace ni abre archivos adjuntos. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Afecta a toda la empresa",
+    "hechos": {
+      "seguridad": true,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "empresa"
+    },
+    "respuesta_ia": "{\"seguridad\": true, \"interaccion\": false, \"alcance\": \"empresa\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Correo\", \"resumen\": \"Correos externos bloqueados desde las 9\", \"respuesta_sugerida\": \"No hagas clic en ningún enlace ni abre archivos adjuntos. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [
+      "Categoría \"Correo\" cambiada a Seguridad (hecho seguridad = true)"
+    ],
+    "duracion_ms": 2884
+  },
+  {
+    "id": "16",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "baja",
+      "resumen": "Buzón lleno en Ventas",
+      "respuesta_sugerida": "Aumenta el espacio del buzón. Si sigue lleno, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Petición o consulta sin urgencia",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": true,
+      "peticion": true,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": true, \"peticion\": true, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Correo\", \"resumen\": \"Buzón lleno en Ventas\", \"respuesta_sugerida\": \"Aumenta el espacio del buzón. Si sigue lleno, anota el mensaje de error exacto y espera a que te contacte un técnico.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3116
+  },
+  {
+    "id": "17",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Seguridad",
+      "prioridad": "alta",
+      "resumen": "No llegan códigos de doble factor después de cambiar de móvil",
+      "respuesta_sugerida": "No intentes acceder a tu correo ni a la intranet. No borres el mensaje de error que aparece. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Posible incidente de seguridad",
+    "hechos": {
+      "seguridad": true,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": true, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Seguridad\", \"resumen\": \"No llegan códigos de doble factor después de cambiar de móvil\", \"respuesta_sugerida\": \"No intentes acceder a tu correo ni a la intranet. No borres el mensaje de error que aparece. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3419
+  },
+  {
+    "id": "18",
+    "esperado": {
+      "categoria": "Otros",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "media",
+      "resumen": "El programa no funciona",
+      "respuesta_sugerida": "Cierra el programa y reinicia el ordenador. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Problema de un usuario con alternativa o que no le bloquea",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": true,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": true, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Software\", \"resumen\": \"El programa no funciona\", \"respuesta_sugerida\": \"Cierra el programa y reinicia el ordenador. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3116
+  },
+  {
+    "id": "19",
+    "esperado": {
+      "categoria": "Otros",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "baja",
+      "resumen": "Solicita ayuda para el ordenador",
+      "respuesta_sugerida": "Llama a la línea de atención al cliente de IT para que te asesoren.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Petición o consulta sin urgencia",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": true,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": true, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Hardware\", \"resumen\": \"Solicita ayuda para el ordenador\", \"respuesta_sugerida\": \"Llama a la línea de atención al cliente de IT para que te asesoren.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2717
+  },
+  {
+    "id": "20",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "baja",
+      "resumen": "Quiere que se instale Spotify",
+      "respuesta_sugerida": "No puede seguir trabajando hasta que se resuelva. Pide al usuario que espere instrucciones de IT antes de hacer cualquier acción.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Petición o consulta sin urgencia",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": true,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": true, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Software\", \"resumen\": \"Quiere que se instale Spotify\", \"respuesta_sugerida\": \"No puede seguir trabajando hasta que se resuelva. Pide al usuario que espere instrucciones de IT antes de hacer cualquier acción.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3003
+  }
+]

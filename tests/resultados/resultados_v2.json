@@ -1,0 +1,342 @@
+[
+  {
+    "id": "1",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "alta",
+      "resumen": "Outlook no envía correos desde esta mañana",
+      "respuesta_sugerida": "Cierra el programa de Outlook y vuelve a iniciar. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3554
+  },
+  {
+    "id": "2",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "alta",
+      "resumen": "Bloqueante: el usuario no puede entrar en el ordenador",
+      "respuesta_sugerida": "Cierra el ordenador y vuelve a intentarlo. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2373
+  },
+  {
+    "id": "3",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "media",
+      "resumen": "Acceso a carpeta de Marketing solicitado",
+      "respuesta_sugerida": "Pide a un supervisor de Marketing que te dé acceso, o contacta con el administrador de sistemas para que te lo conceda.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2150
+  },
+  {
+    "id": "4",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "media",
+      "resumen": "Impresora de la segunda planta imprime con rayas",
+      "respuesta_sugerida": "Verifica que el papel esté correctamente alineado y que no esté demasiado sucio. Si el problema persiste, contacta con un técnico.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2255
+  },
+  {
+    "id": "5",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "alta",
+      "resumen": "Portátil no enciende",
+      "respuesta_sugerida": "No haces nada más; un técnico ya está avisado. Si poden, anotad el mensaje de error que aparece.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2490
+  },
+  {
+    "id": "6",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "media",
+      "resumen": "Ratón inalámbrico salta constantemente",
+      "respuesta_sugerida": "Prueba el ratón con cable de repuesto. Si sigue fallando, anota el mensaje de error y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2595
+  },
+  {
+    "id": "7",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "media",
+      "resumen": "Excel se cierra cada vez que se abre el archivo de previsiones",
+      "respuesta_sugerida": "Cierra Excel y abre el archivo de previsiones desde la versión web, que es más lenta. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2665
+  },
+  {
+    "id": "8",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "media",
+      "resumen": "Solicita instalacion de programa para editar PDF",
+      "respuesta_sugerida": "Puedes descargar el programa desde nuestro sitio web. Si necesitas ayuda, puedes contactar con un técnico.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1906
+  },
+  {
+    "id": "9",
+    "esperado": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente",
+      "resumen": "Nadie del departamento de Ventas tiene Internet desde hace media hora",
+      "respuesta_sugerida": "Revisa la conexión wifi o cable en tu área de trabajo. Si no funciona, contacta a IT para que te ayude.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2175
+  },
+  {
+    "id": "10",
+    "esperado": {
+      "categoria": "Red y conexión",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Red y conexión",
+      "prioridad": "alta",
+      "resumen": "La VPN se queda en 'Conectando...' y no se establece",
+      "respuesta_sugerida": "Cierra la VPN y vuelve a intentarlo. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2423
+  },
+  {
+    "id": "11",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "alta",
+      "resumen": "Correo sospechoso del banco pide confirmar datos",
+      "respuesta_sugerida": "No haces clic en el enlace. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1795
+  },
+  {
+    "id": "12",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "alta",
+      "resumen": "Abrí correo sospechoso con credenciales del trabajo",
+      "respuesta_sugerida": "No hagas clic en el enlace. No borres el correo ni el archivo. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2088
+  },
+  {
+    "id": "13",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "alta",
+      "resumen": "Abrió un adjunto sospechoso que altera archivos",
+      "respuesta_sugerida": "No hagas clic en nada más, no borres el archivo. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1953
+  },
+  {
+    "id": "14",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "alta",
+      "resumen": "Perdido el móvil de empresa en el tren",
+      "respuesta_sugerida": "No hagas nada más; un técnico ya está avisado. Si podéis, anotad el número de serie del móvil y cualquier otra información útil.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2243
+  },
+  {
+    "id": "15",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "urgente",
+      "resumen": "No se reciben correos externos desde las 9",
+      "respuesta_sugerida": "Revisa el correo de configuración de la empresa para asegurarte de que la política de bloqueo de correos externos esté activada. Si no la conoces, pregunta a alguien de la IT.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2548
+  },
+  {
+    "id": "16",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "media",
+      "resumen": "Buzn de ventas está al 90% y necesita ampliarse",
+      "respuesta_sugerida": "Verifica si hay correos que no hayas leído y elimina los que no sean urgentes. Si el problema persiste, espera instrucciones de IT.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2381
+  },
+  {
+    "id": "17",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta",
+      "resumen": "Bloqueante: no puede entrar al correo ni a la intranet",
+      "respuesta_sugerida": "Introduce el código de acceso del nuevo móvil en el dispositivo actual y espera a que se active el doble factor. Si sigue sin poder acceder, espera instrucciones de IT.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2624
+  },
+  {
+    "id": "18",
+    "esperado": {
+      "categoria": "Otros",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "media",
+      "resumen": "El programa de nóminas da error al iniciar",
+      "respuesta_sugerida": "Cierra el programa y reinicia el ordenador. Si sigue fallando, anota el mensaje de error exacto y espera a que te contacte un técnico.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2278
+  },
+  {
+    "id": "19",
+    "esperado": {
+      "categoria": "Otros",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "media",
+      "resumen": "Departamento Ventas tiene un problema con el ordenador",
+      "respuesta_sugerida": "Llama al servicio de soporte IT para que te asesoren y te ayuden a solucionar el problema.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1964
+  },
+  {
+    "id": "20",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "urgente",
+      "resumen": "Quiere instalá Spotify en el ordenador",
+      "respuesta_sugerida": "Instala Spotify y verifica que funcione correctamente. Si tienes alguna duda, espera instrucciones de IT.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1980
+  }
+]

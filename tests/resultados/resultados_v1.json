@@ -1,0 +1,346 @@
+[
+  {
+    "id": "1",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "urgente",
+      "resumen": "No se puede enviar correo desde Outlook desde esta mañana",
+      "respuesta_sugerida": "Intenta reiniciar el cliente de Outlook y vuelve a intentar enviar el correo, si persiste, intenta restablecer la conexión con el servidor de Outlook",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 9568
+  },
+  {
+    "id": "2",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Otros",
+      "prioridad": "urgente",
+      "resumen": "No se puede acceder al ordenador bloqueado tras fallar la contraseña tres veces",
+      "respuesta_sugerida": "Intenta restablecer la contraseña, si no funciona, llama a soporte IT",
+      "escalar": true
+    },
+    "revisar_a_mano": true,
+    "ajustes": [],
+    "duracion_ms": 2011
+  },
+  {
+    "id": "3",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Red y conexión",
+      "prioridad": "media",
+      "resumen": "No puede acceder a la carpeta de Marketing",
+      "respuesta_sugerida": "Intenta acceder a la carpeta de Marketing y ver si es visible. Si no lo es, intenta buscar en otra ubicación o contactar con el administrador de la red.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2375
+  },
+  {
+    "id": "4",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "media",
+      "resumen": "La impresora de la segunda planta imprime con rayas",
+      "respuesta_sugerida": "Prueba si el papel está correctamente alineado y si el toner no está agotado. Si el problema persiste, intenta usar la impresora de la primera planta.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2347
+  },
+  {
+    "id": "5",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "urgente",
+      "resumen": "Portátil no enciende y no se puede cargar",
+      "respuesta_sugerida": "Prueba de encendido y cargador alternativo, si no funciona, llama a soporte IT",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1936
+  },
+  {
+    "id": "6",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "alta",
+      "resumen": "Ratón inalámbrico quebrado",
+      "respuesta_sugerida": "Prueba el ratón con cable de repuesto, si funciona, es posible que el problema sea con la conexión inalámbrica",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2071
+  },
+  {
+    "id": "7",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "media",
+      "resumen": "Excel se cierra cada vez que se abre el archivo de previsiones",
+      "respuesta_sugerida": "Intenta cerrar Excel y vuelve a abrirlo. Si el problema persiste, intenta actualizar la versión de Excel.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2091
+  },
+  {
+    "id": "8",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "media",
+      "resumen": "No se puede editar PDF",
+      "respuesta_sugerida": "Intenta buscar una versión gratuita de un programa de edición de PDF, como Adobe Acrobat Reader o SmallPDF, y sigue las instrucciones del sitio web para instalarlo.",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2118
+  },
+  {
+    "id": "9",
+    "esperado": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente",
+      "resumen": "No hay Internet en el departamento de Ventas",
+      "respuesta_sugerida": "Intenta conectarse a la red de la oficina por cable, si no funciona, intenta conectarse a la red wifi, si no funciona, contacta con el soporte IT para ayuda adicional",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2465
+  },
+  {
+    "id": "10",
+    "esperado": {
+      "categoria": "Red y conexión",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente",
+      "resumen": "La VPN no se conecta correctamente y no se puede acceder a la red",
+      "respuesta_sugerida": "Intenta desconectar y reconectar la VPN, si persiste, intenta reiniciar el equipo",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1989
+  },
+  {
+    "id": "11",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente",
+      "resumen": "Correos sospechosos",
+      "respuesta_sugerida": "No hagas clic en el enlace, no borres el correo, espera instrucciones de IT",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1753
+  },
+  {
+    "id": "12",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "urgente",
+      "resumen": "Usuario intentó acceder a correo falso con credenciales de trabajo",
+      "respuesta_sugerida": "No hagas clic en el enlace, borra el correo y espera instrucciones de IT",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1886
+  },
+  {
+    "id": "13",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "urgente",
+      "resumen": "Ventanas raras y archivos con extensión alterada después de abrir un adjunto",
+      "respuesta_sugerida": "Cierre inmediatamente el archivo de adjunto y no hagas clic en ninguna ventana sospechosa. Espera instrucciones de IT antes de realizar cualquier acción adicional.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2403
+  },
+  {
+    "id": "14",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Otros",
+      "prioridad": "urgente",
+      "resumen": "Perdido el móvil de empresa en el tren",
+      "respuesta_sugerida": "No hagas clic en nada más, espera instrucciones de IT, intenta recordar la contraseña de tu cuenta de correo del trabajo",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1987
+  },
+  {
+    "id": "15",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "urgente",
+      "resumen": "No se reciben correos externos desde las 9",
+      "respuesta_sugerida": "Verifica que el correo no esté bloqueado, intenta enviar un correo desde otro dispositivo o cuenta, y si no funciona, contacta con el equipo de soporte IT",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2191
+  },
+  {
+    "id": "16",
+    "esperado": {
+      "categoria": "Correo",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "media",
+      "resumen": "Buzón de correo lleno en 90%",
+      "respuesta_sugerida": "Intenta borrar algunos correos innecesarios, verifica la carpeta de entrada y elimina cualquier correo que no sea necesario, y luego intenta ampliar el espacio en el buzón",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2222
+  },
+  {
+    "id": "17",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Otros",
+      "prioridad": "urgente",
+      "resumen": "No puede acceder a correo y intranet después de cambiar de móvil",
+      "respuesta_sugerida": "Verifica que el código de doble factor esté configurado correctamente en el nuevo móvil y en el correo, y intenta acceder de nuevo.",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2189
+  },
+  {
+    "id": "18",
+    "esperado": {
+      "categoria": "Otros",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Otros",
+      "prioridad": "media",
+      "resumen": "No se puede acceder a un servicio",
+      "respuesta_sugerida": "Intenta reiniciar el equipo o contactar con un administrador para ayuda",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [
+      "Escalado forzado por categoría o prioridad"
+    ],
+    "duracion_ms": 1582
+  },
+  {
+    "id": "19",
+    "esperado": {
+      "categoria": "Otros",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "media",
+      "resumen": "Problema con el ordenador de Ventas",
+      "respuesta_sugerida": "Prueba de reiniciar el ordenador, si el problema persiste, intenta conectar el ordenador a una fuente de alimentación diferente",
+      "escalar": false
+    },
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 1936
+  },
+  {
+    "id": "20",
+    "esperado": {
+      "categoria": "Software",
+      "prioridad": "baja"
+    },
+    "obtenido": {
+      "categoria": "Software",
+      "prioridad": "urgente",
+      "resumen": "Quiere que se instale Spotify en el ordenador",
+      "respuesta_sugerida": "Puedes intentar buscar Spotify en el centro de descargas de la empresa o solicitar ayuda a un compañero de trabajo",
+      "escalar": true
+    },
+    "revisar_a_mano": false,
+    "ajustes": [
+      "Escalado forzado por categoría o prioridad"
+    ],
+    "duracion_ms": 1909
+  }
+]

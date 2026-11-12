@@ -1,0 +1,7 @@
+id,departamento,bloqueante,descripcion,categoria_esperada,prioridad_esperada
+V1,Ventas,No,"Me a llegado un sms de correos que tenia un paquete retenido, entre al link y pague 1,99 con la tarjeta de la empresa para que me lo envien",Seguridad,urgente
+V2,Administración,No,"Me ha llamado un tal Javier diciendo que es del soporte de Microsoft, que mi ordenador tiene errores y que instale un programa llamado AnyDesk para arreglarlo. Le he dicho que luego le llamo.",Seguridad,alta
+V3,Dirección,Sí,"No me acuerdo de la contraseña del ordenador y no puedo entrar, tengo una reunión en 10 minutos",Cuentas y accesos,alta
+V4,Tecnología,No,"La pantalla del portátil parpadea de vez en cuando. De momento lo tengo conectado al monitor externo y puedo seguir trabajando.",Hardware,media
+V5,Administración,Sí,"Se ha caído el wifi en toda la planta de Administración, ninguno tenemos conexión",Red y conexión,urgente
+V6,Ventas,No,"Necesito ayuda URGENTE!!!",Otros,media

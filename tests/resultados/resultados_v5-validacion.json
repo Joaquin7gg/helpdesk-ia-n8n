@@ -1,0 +1,175 @@
+[
+  {
+    "id": "V1",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Seguridad",
+      "prioridad": "alta",
+      "resumen": "SMS sospechoso de phishing",
+      "respuesta_sugerida": "No hagas clic en enlaces ni abras adjuntos del mensaje sospechoso, y no respondas al remitente. No lo borres: es la prueba. Si has perdido un dispositivo de la empresa, no hace falta que hagas nada más: IT lo bloqueará. Espera instrucciones de IT.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Posible incidente de seguridad",
+    "hechos": {
+      "seguridad": true,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": true, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Correo\", \"resumen\": \"SMS sospechoso de phishing\", \"respuesta_sugerida\": \"No hagas clic en el enlace. No lo copies ni lo envíes. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [
+      "Categoría \"Correo\" cambiada a Seguridad (hecho seguridad = true)",
+      "Respuesta al usuario sustituida por la plantilla fija de seguridad"
+    ],
+    "duracion_ms": 3141
+  },
+  {
+    "id": "V2",
+    "esperado": {
+      "categoria": "Seguridad",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Seguridad",
+      "prioridad": "urgente",
+      "resumen": "Llamada sospechosa de soporte de Microsoft",
+      "respuesta_sugerida": "Cambia ahora la contraseña de tu cuenta del trabajo desde otro dispositivo de confianza (por ejemplo, tu móvil), no desde este ordenador. Si has abierto o ejecutado un archivo, desconecta este equipo de la red (cable o wifi) pero no lo apagues. No borres el correo ni el archivo: son la prueba. IT se pondrá en contacto contigo enseguida.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Seguridad con interacción del usuario",
+    "hechos": {
+      "seguridad": true,
+      "interaccion": true,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": true, \"interaccion\": true, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Seguridad\", \"resumen\": \"Llamada sospechosa de soporte de Microsoft\", \"respuesta_sugerida\": \"No hagas clic en el enlace o la llamada. No instales el programa AnyDesk. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [
+      "Respuesta al usuario sustituida por la plantilla fija de seguridad"
+    ],
+    "duracion_ms": 3218
+  },
+  {
+    "id": "V3",
+    "esperado": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta"
+    },
+    "obtenido": {
+      "categoria": "Cuentas y accesos",
+      "prioridad": "alta",
+      "resumen": "Olvidó la contraseña del ordenador",
+      "respuesta_sugerida": "No intentes cambiar la contraseña. No hagas clic en ninguna opción de",
+      "escalar": false
+    },
+    "motivo_prioridad": "No puede trabajar y no tiene alternativa",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Cuentas y accesos\", \"resumen\": \"Olvidó la contraseña del ordenador\", \"respuesta_sugerida\": \"No intentes cambiar la contraseña. No hagas clic en ninguna opción de \"                \n    }",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 2913
+  },
+  {
+    "id": "V4",
+    "esperado": {
+      "categoria": "Hardware",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Hardware",
+      "prioridad": "media",
+      "resumen": "Pantalla del portátil parpadea de vez en cuando",
+      "respuesta_sugerida": "Desconecta el portátil del monitor externo y vuelve a conectarlo. Si el problema persiste, anota el comportamiento y espera instrucciones de IT.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Problema de un usuario con alternativa o que no le bloquea",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": true,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": true, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Hardware\", \"resumen\": \"Pantalla del port\\u00e1til parpadea de vez en cuando\", \"respuesta_sugerida\": \"Desconecta el port\\u00e1til del monitor externo y vuelve a conectarlo. Si el problema persiste, anota el comportamiento y espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3624
+  },
+  {
+    "id": "V5",
+    "esperado": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente"
+    },
+    "obtenido": {
+      "categoria": "Red y conexión",
+      "prioridad": "urgente",
+      "resumen": "Wi-fi caído en planta de Administración",
+      "respuesta_sugerida": "No hagas nada más; un técnico ya está avisado. Si podéis, anotad el mensaje de error que aparece.",
+      "escalar": true
+    },
+    "motivo_prioridad": "Afecta a un departamento o grupo de personas",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": false,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "grupo"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"grupo\", \"alternativa\": false, \"peticion\": false, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Red y conexión\", \"resumen\": \"Wi-fi caído en planta de Administración\", \"respuesta_sugerida\": \"No hagas nada más; un técnico ya está avisado. Si podéis, anotad el mensaje de error que aparece.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3144
+  },
+  {
+    "id": "V6",
+    "esperado": {
+      "categoria": "Otros",
+      "prioridad": "media"
+    },
+    "obtenido": {
+      "categoria": "Correo",
+      "prioridad": "baja",
+      "resumen": "Urgente: Ayuda necesaria",
+      "respuesta_sugerida": "No hagas clic en ningún enlace ni contestes ningún mensaje sospechoso. Envía un correo a IT con el asunto \"Ayuda urgente\" y anota tu nombre y departamento. Espera instrucciones de IT.",
+      "escalar": false
+    },
+    "motivo_prioridad": "Petición o consulta sin urgencia",
+    "hechos": {
+      "seguridad": false,
+      "interaccion": false,
+      "alternativa": false,
+      "peticion": true,
+      "sin_prisa": false,
+      "vaga": false,
+      "alcance": "persona"
+    },
+    "respuesta_ia": "{\"seguridad\": false, \"interaccion\": false, \"alcance\": \"persona\", \"alternativa\": false, \"peticion\": true, \"sin_prisa\": false, \"vaga\": false, \"categoria\": \"Correo\", \"resumen\": \"Urgente: Ayuda necesaria\", \"respuesta_sugerida\": \"No hagas clic en ningún enlace ni contestes ningún mensaje sospechoso. Envía un correo a IT con el asunto \\\"Ayuda urgente\\\" y anota tu nombre y departamento. Espera instrucciones de IT.\"}",
+    "revisar_a_mano": false,
+    "ajustes": [],
+    "duracion_ms": 3678
+  }
+]

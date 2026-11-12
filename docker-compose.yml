@@ -1,0 +1,17 @@
+services:
+  n8n:
+    # Versión fijada para que el proyecto sea reproducible (comprobada el 2026-11-11)
+    image: docker.n8n.io/n8nio/n8n:2.47.4
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=Europe/Madrid
+      - TZ=Europe/Madrid
+    volumes:
+      - n8n_data:/home/node/.n8n
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  n8n_data:

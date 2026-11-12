@@ -1,0 +1,11 @@
+# Secretos
+.env
+*.env.local
+
+# Python (script de evaluación)
+__pycache__/
+.venv/
+
+# Sistema
+Thumbs.db
+.DS_Store
